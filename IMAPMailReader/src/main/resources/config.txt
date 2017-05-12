@@ -1,0 +1,2 @@
+GC#user1:password#location1
+IN#user2:password#location2
