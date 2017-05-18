@@ -25,32 +25,5 @@ public class DaemonConfig {
 	
 	public static void main(String[] args) {
 		SpringApplication.run(DaemonConfig.class, args);
-//		String out = triggerDaemon("sh ~/Desktop/mail.sh --EMAIL=imaps://arun_mohan:Oct_2014@mail.apple.com:993/inbox");
-//		System.out.println("Process " + out);
 	}
-	
-//	private static String getPid(InputStream ins) throws Exception {
-//	    String out = "";
-//		String line = null;
-//	    BufferedReader in = new BufferedReader(new InputStreamReader(ins));
-//	    while ((line = in.readLine()) != null) {
-//	    	out += line;
-//	    }
-//	    return out;
-//	}
-//	
-//	private static String triggerDaemon(String command) {
-//		String output = null;
-//		try {
-//			Process pro = Runtime.getRuntime().exec(command);		    
-//		    if (null != pro.getInputStream()) {
-//		    	output = getPid(pro.getInputStream());
-//		    }
-//		    pro.waitFor();
-//		    System.out.println("Process ID" + output);
-//		} catch (Exception e) {
-//			e.printStackTrace();
-//		}
-//		return output;
-//	}
 }
